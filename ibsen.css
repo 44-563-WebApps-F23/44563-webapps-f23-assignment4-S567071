@@ -23,3 +23,25 @@
 .MrsStockmann {
     color: palevioletred;
 }
+
+.Table {
+    width: 30%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+}
+
+.Table th ,
+.Table td {
+    border: 1px solid;
+    padding: 10px;
+    text-align: center;
+}
+
+.Table th {
+    background-color: aquamarine;
+    color: coral;
+}
+
+.Table tr:nth-child(odd){
+    background-color: lavenderblush;
+}
