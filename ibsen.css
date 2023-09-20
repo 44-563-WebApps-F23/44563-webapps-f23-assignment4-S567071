@@ -12,6 +12,10 @@
 
 }
 
+.name {
+
+}
+
 .direction:hover {
     background-color: beige;
     color: blue;
@@ -20,14 +24,15 @@
     color: blueviolet;
 }
 
+.MrsStockmann {
+    color: palevioletred;
+}
+
 .Stockmann:hover {
     box-shadow: 3px 3px 5px peru;
     border-style: dotted;
     text-shadow: 3px 3px 5px blue;
     filter: blur(0.5px);
-}
-.MrsStockmann {
-    color: palevioletred;
 }
 
 .MrsStockmann:hover {
