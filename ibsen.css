@@ -23,12 +23,16 @@
 .Stockmann:hover {
     box-shadow: 3px 3px 5px peru;
     border-style: dotted;
+    text-shadow: 3px 3px 5px blue;
+    filter: blur(0.5px);
 }
 .MrsStockmann {
     color: palevioletred;
 }
 
 .MrsStockmann:hover {
+    text-shadow: 3px 3px 5px blueviolet;
+    filter: blur(0.5px);
     box-shadow: 3px 3px 5px paleturquoise;
     border-style: inset;
 }
@@ -54,3 +58,20 @@
 .Table tr:nth-child(odd){
     background-color: lavenderblush;
 }
+
+ul.navbar-horizontal {
+    /* remove these */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+    ul.navbar-horizontal li {
+    float:left; /* line up horizontally */
+    color:#000;
+    background-color:antiquewhite
+    }
+    ul.navbar-horizontal a {
+    display:block;
+    padding:8px
+    }
+    
